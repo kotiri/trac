@@ -63,11 +63,11 @@ smtp_always_bcc =
 smtp_always_cc = 
 smtp_default_domain = 
 smtp_enabled = false
-smtp_from = trac@<%= @node[:domain] %>
+smtp_from = trac@<%= @node['domain'] %>
 smtp_from_name = 
 smtp_password = 
 smtp_port = 25
-smtp_replyto = trac@<%= @node[:domain] %>
+smtp_replyto = trac@<%= @node['domain'] %>
 smtp_server = localhost
 smtp_subject_prefix = __default__
 smtp_user = 
