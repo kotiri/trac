@@ -97,9 +97,9 @@ template "trac-conf" do
   )
 end
 
-apache_site "trac.conf"
+apache2_site "trac.conf"
 
-apache_site "default" do
+apache2_site "default" do
   action :disable
 end
 
